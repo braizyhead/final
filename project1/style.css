@@ -1,0 +1,221 @@
+.back{
+    background-image: url("imageedit_2_3554721112.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    text-align: center;
+    font-family: Dubai, serif;
+    margin-top: 10px;
+    font-size: 87px;
+
+}
+.heading2{
+    text-align: center;
+    font-family: Dubai, serif;
+    margin-top: 10px;
+    font-size: 57px;
+
+}
+.heading3{
+    text-align: left;
+    font-family: Dubai, serif;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 35px;
+    background-color: #ffcad1;
+    padding-inline: 10px;
+    padding-block: 10px;
+    border-radius: 10px;
+}
+.vert{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #cc0046;
+    border-radius: 5px;
+    padding: 20px;
+    width: 800px; /* Adjust width as per your preference */
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: white;
+}
+.vert2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    position: relative;
+    height: 100vh; /* Adjust the height as needed */
+
+}
+
+.container audio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-block: 10px;
+    padding-inline: 10px;
+    background-color: #ffcad1;
+    border-radius: 100px;
+}
+
+.hori{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+.hori2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.hori2 audio{
+    padding-block: 10px;
+    padding-inline: 10px;
+    background-color: #ffcad1;
+    border-radius: 100px;
+}
+a{
+    margin-bottom: 10px;
+}
+
+.back_img{
+    width: 500px;
+    height: 500px;
+}
+.paragraph{
+    font-family: Dubai Light, serif;
+    font-size: 22px;
+    text-align: justify-all;
+    overflow: hidden;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.dialog{
+    font-family: Dubai Light, serif;
+    font-size: 22px;
+    text-align: left;
+    overflow: hidden;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin-bottom: -5px;
+
+
+}
+.blanchedalmond{
+    font-family: Dubai Light, serif;
+    font-size: 15px;
+}
+
+
+.button-52 {
+   font-size: 16px;
+   font-weight: 200;
+    font-family: Dubai Light, serif;
+   letter-spacing: 1px;
+   padding: 13px 20px 13px;
+   outline: 0;
+   border: 1px solid black;
+   cursor: pointer;
+   position: relative;
+   background-color: rgba(0, 0, 0, 0);
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+    color: #380315;
+
+}
+
+.button-52:after {
+    content: "";
+    background-color: #ffcad1;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+    color: #380315;
+
+}
+
+.button-52:hover:after {
+    top: 0px;
+    left: 0px;
+}
+
+@media (min-width: 768px) {
+    .button-52 {
+        padding: 13px 50px 13px;
+    }
+}
+
+.button-74 {
+   background-color: #ffcad1;
+   border: 2px solid #cc0046;
+   border-radius: 30px;
+   box-shadow: #c7818b 4px 4px 0 0;
+   color: #380315;
+   cursor: pointer;
+   display: inline-block;
+   font-weight: 600;
+   font-size: 18px;
+   padding: 0 18px;
+   line-height: 50px;
+   text-align: center;
+   text-decoration: none;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.button-74:hover {
+    background-color: #fff;
+}
+
+.button-74:active {
+    box-shadow: #c7818b 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+    .button-74 {
+        min-width: 120px;
+        padding: 0 25px;
+    }
+}
+
+
+video{
+    margin-top: 10px;
+
+}
+
+#img10_1_1{
+    width: 500px;
+    height: auto;
+}
+
+#img10_1_2{
+    width: 300px;
+    height: auto;
+}
